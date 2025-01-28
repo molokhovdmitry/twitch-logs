@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twitch-logs"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Molokhov <molokhovdmitry@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.7"
+streamlit = "^1.41.1"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
